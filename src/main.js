@@ -4,5 +4,5 @@ import App from './App'
 new Vue ({
   // el: '#app', same thing as $mount below
   render: h => h(App)
-}).$mount('app')
+}).$mount('#app')
 // h stands for createElement - abbreviation
